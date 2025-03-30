@@ -1,8 +1,11 @@
 nav{
     width: 100%;
-    background: #333;
+    
     color: #fff;
     padding: 14px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,6 +22,8 @@ nav{
 }
 
 nav ul li{
+
+    
     display: inline-block;
     list-style: none;
     margin: 5px 20px;
@@ -42,13 +47,87 @@ nav ul li:hover::after{
     width: 50%;
 }
 
-/*  
+ 
 .dark-nav{
     background: #212EA0;
-    background: #007BFF; 
+    /* background: #ff6363; */
+    /* background: #007BFF;   */
     transition: 0.5s;
     
 }
 .menu-icon{
     display: none;
-} */
+} 
+
+
+
+@media (max-width: 1000px) {
+    .logo{
+        width: 140px;
+    }
+    nav ul li{
+        margin: 10px 15px;
+    }
+    
+}
+@media (max-width: 840px){
+    nav{
+        padding: 15px 0;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        
+        background: linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.7)), url('../../assets/BG4.jpg');
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+        width: 100%;
+        padding-top: 70px;
+        transition: 0.5s;
+
+        
+    }  
+    
+    
+    
+
+    
+  
+      nav ul li{
+        display: block;
+      
+
+       
+        
+        margin: 25px 40px;
+        justify-self: center;
+    } 
+    
+   
+
+    
+     
+
+   
+    
+    
+    
+    
+    
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .hide-mobile-menu{
+        right: -100%;
+    }
+
+   
+
+}  
+
+
