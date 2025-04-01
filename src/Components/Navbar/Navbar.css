@@ -50,8 +50,7 @@ nav ul li:hover::after{
  
 .dark-nav{
     background: #212EA0;
-    /* background: #ff6363; */
-    /* background: #007BFF;   */
+   
     transition: 0.5s;
     
 }
@@ -80,7 +79,7 @@ nav ul li:hover::after{
         right: 0;
         bottom: 0;
         
-        background: linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.7)), url('../../assets/BG4.jpg');
+        background: linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.7)), url('../../assets/bg6.jpg');
         background-size: cover;
         background-position: center;
         z-index: -1;
@@ -98,13 +97,19 @@ nav ul li:hover::after{
   
       nav ul li{
         display: block;
+        margin: 50px 40px;
+        justify-self: center;
+        
       
 
        
         
-        margin: 25px 40px;
-        justify-self: center;
     } 
+
+    nav ul li a{
+        font-size: 30px;
+    
+    }
     
    
 
@@ -119,7 +124,7 @@ nav ul li:hover::after{
     
     .menu-icon{
         display: block;
-        width: 30px;
+        width: 40px;
         cursor: pointer;
     }
     .hide-mobile-menu{

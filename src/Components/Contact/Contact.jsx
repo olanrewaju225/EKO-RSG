@@ -40,7 +40,7 @@ const handleSubmit = async (e) => {
 
   return (
     <div className='contact'>
-        <div className="contact-col">
+        <div className="contact-col" data-aos="zoom-in-up">
             
             <h3>Send us a Message <i className="ri-mail-line"></i></h3>
             <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our clients.</p>
@@ -62,7 +62,7 @@ const handleSubmit = async (e) => {
             
         </div>
 
-        <div className="contact-col">
+        <div className="contact-col" data-aos="zoom-in-down">
             <form onSubmit={handleSubmit}>
                 <label>Your Name</label>
                 <input onChange={(e) => setName(e.target.value)} value={name}  type="text" name="name" placeholder='Enter your name' required/>

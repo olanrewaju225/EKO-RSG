@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import Typewriter from 'typewriter-effect';
 import './Hero.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { Link } from 'react-scroll';
 
  
 
 const Hero = () => {
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    }, []);
+
+
     return (
-        <div className='hero'>
-            <div className='hero-text'>
+        <div className='hero container'>
+            <div className='hero-text' data-aos="fade-up">
                 <h1>
                   <Typewriter
                    options={{
@@ -27,9 +38,9 @@ const Hero = () => {
                     
                 
                 <p>Deliciously Roasted Guinea Fowl - Fresh, Flavorful and Healthy!</p>
-                <button className='btn'>
-                Contact Us<i className='ri-shopping-cart-line'></i>
-               </button>
+                <Link className='btn' to='contact' smooth={true} offset={-260} duration={500}  data-aos-delay="500">
+                          Shop now <i className="ri-shopping-cart-line"></i>
+                </Link>
             </div>
             
             

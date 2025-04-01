@@ -5,12 +5,12 @@ import about_img from '../../assets/bg7.jpg'
 const About = () => {
   return (
     <div className='about'>
-        <div className='about-left'>
+        <div className='about-left' data-aos="zoom-in" data-aos-duration="1500">
             <img src={about_img} alt=''className='about-img'/>
 
         </div>
 
-        <div className="about-right">
+        <div className="about-right" data-aos="fade-left" data-aos-duration="2000">
             <h3>ABOUT US</h3>
             <h2>
               Get the Best Culinary Experience
