@@ -45,7 +45,7 @@ const handleSubmit = async (e) => {
             <h3>Send us a Message <i className="ri-mail-line"></i></h3>
             <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our clients.</p>
             <ul>
-                <li><i className="ri-mail-line"></i> Contact@GreatGad.city</li>
+                <li><i className="ri-mail-line"></i> Contact@eko-rsg.city</li>
                 <li><i className="ri-phone-line"></i> +2348179804517</li>
                 <li><i className="ri-map-pin-line"></i> Number 1, Lorem street, Ipsum, Dolor Village, Sit, Lagos state</li>
 
