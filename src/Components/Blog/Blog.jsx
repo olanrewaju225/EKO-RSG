@@ -27,12 +27,9 @@ const Blog = () => {
 
             <div className='dyk-right' data-aos="fade-right">
                 
-                <h3>Lorem, ipsum dolor.</h3>
-                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, facere obcaecati.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nisi magni dicta <br />
-                
-                incidunt dolor, in soluta accusantium consequatur obcaecati tempore pariatur rem culpa unde veniam corporis possimus vitae natus mollitia. Assumenda repellat et recusandae rem quibusdam architecto ullam reprehenderit soluta quisquam, iure ea ex magni provident repudiandae corporis quam consectetur!</p>
-
+                <h3>Featured.</h3>
+                <h2>Why Choose Our Roasted Guinea Fowl?</h2>
+                <p>We believe in the power of natural food. Our guinea fowl are raised in a healthy, organic environment where they are free to roam and forage, as nature intended. This means they are not exposed to harmful pesticides, hormones, or antibiotics. By choosing our roasted guinea fowl, you’re ensuring that your meal is free from chemicals and packed with natural goodness. Our commitment to organic farming practices ensures that what you’re eating is both safe and nourishing for your body</p>
                 
                 
 
@@ -47,8 +44,11 @@ const Blog = () => {
             </div>
             <div className="ft-right" data-aos="fade-up-left">
                 <h3>Featured</h3>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores pariatur atque consectetur ex maiores excepturi natus numquam doloribus amet sint? Recusandae iusto consequuntur consectetur officiis facilis accusamus natus soluta tempore obcaecati ut neque, expedita ducimus consequatur reiciendis. Eligendi pariatur obcaecati repellat natus ipsum quod molestiae blanditiis veniam ea hic, tenetur nisi dicta quis distinctio, tempora magnam rerum cum optio sequi? Nam cum quos optio consectetur recusandae doloremque porro laudantium similique.</p>
+                <h2>Lean Meat - A Weight Conscious, Low-Fat Lifestyle</h2>
+                <p>When it comes to choosing meat, lean cuts are an excellent option for those looking to maintain a healthy diet. Guinea fowl meat is naturally lean, making it an ideal protein choice for anyone who is watching their calorie intake or aiming to reduce body fat. Compared to other poultry, guinea fowl has less fat and fewer calories, making it a perfect choice for those pursuing a weight-conscious or low-fat lifestyle.
+                The lean meat is tender and flavorful, making it a great addition to various dishes without compromising taste. You can enjoy a hearty meal without the guilt of consuming excess fats.
+
+                </p>
             </div>
 
         </div>
@@ -62,9 +62,9 @@ const Blog = () => {
                 <div className="article-card" data-aos="fade-right">
                     <img src={gallery_4} className='article-image'/>
                     <h3 className='article-title'>
-                        The Future Recipe_ The secret Ingredients
+                        Guinea Fowl : An Excellent Source of Essential Vitamins. 
                     </h3>
-                    <p className='article-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nesciunt? consectetur adipisicing elit. Obcaecati, nesciunt?</p>
+                    <p className='article-description'>Guinea fowl is an excellent source of essential vitamins that are vital for your overall health and well-being. They are particularly high...</p>
                     <p className="article-date">Coming on: April 15, 2025</p>
                     <a href="#" class="read-more">Read more</a>
                 </div>
@@ -78,7 +78,7 @@ const Blog = () => {
                     <h3 className='article-title'>
                         LifeStyle Medicine: integrating Food With Health
                     </h3>
-                    <p className='article-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nesciunt? consectetur adipisicing elit. Obcaecati, nesciunt?</p>
+                    <p className='article-description'> Join us in celebrating the joy of eating healthy and sustainable food, and experience the difference that organic, naturally raised guinea fowl can make in your diet.</p>
                     <p className="article-date">Coming on: April 05, 2025</p>
                     <a href="#" class="read-more">Read more</a>
                 </div>
@@ -90,9 +90,9 @@ const Blog = () => {
                 <div className="article-card" data-aos="fade-left">
                     <img src={gallery_6} className='article-image'/>
                     <h3 className='article-title'>
-                        The Top Notch Culinary Experience
+                        Lowering Cholesterol : Cardiovascular Diseases
                     </h3>
-                    <p className='article-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nesciunt? consectetur adipisicing elit. Obcaecati, nesciunt?</p>
+                    <p className='article-description'>For those who are conscious of their cholesterol levels, guinea fowl is a wonderful option. Compared to other meats like beef or pork, guinea fowl is...</p>
                     <p className="article-date">Coming on: july 25, 2025</p>
                     <a href="#" class="read-more">Read more</a>
                 </div>

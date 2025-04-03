@@ -28,7 +28,7 @@ function App() {
 
           <About />
 
-          <Title subTitle='Our Blog' title='UnderStand the best Information about our culinary pattern' />
+          <Title subTitle='Our Blog' title='Understand The Best Information About Our Culinary Pattern' />
           <Blog />
 
           <Title subTitle='Contact Us' title='Get in Touch'/>
